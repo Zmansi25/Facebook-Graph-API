@@ -1,0 +1,34 @@
+body{
+  background-image: url('../img/img7.jpg');
+}
+
+.panel-transparent{
+    background-color: rgba(0,0,0,0.15);
+}
+
+.panel{
+    background-color: transparent;
+    border: 1px #222;
+    position: relative;
+    margin: 10%;
+    word-wrap: break-word;
+
+}
+.panel-heading{
+  font-size: 30px;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  color: #3a1e34;
+}
+.panel-body{
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+}
+.list-group{
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+}
+.panel-footer{
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+}

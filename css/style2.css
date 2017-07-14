@@ -1,0 +1,24 @@
+body{
+  background-image: url('../img/img7.jpg');
+}
+.jumbotron{
+    background-color: #D3D3D3	;
+    border: 1px #222;
+    position: relative;
+    margin: 10%;
+    word-wrap: break-word;
+    padding: 10%;
+
+}
+h1{
+  font-size: 30px;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  color: #3a1e34;
+
+}
+.jumbotron p{
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+  color: #3a1e34;
+}
