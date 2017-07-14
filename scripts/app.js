@@ -16,7 +16,11 @@
                    $("#myBirthdate").text(response.birthday);
                    $("#myHometown").text(response.hometown.name);
                    $("#myRelationshipStatus").text(response.relationship_status);
-              }
+              },
+              error: function( req, status, err ) {
+                  console.log( 'something went wrong', status, err );
+                  alert('something went wrong'+ status + err);
+                } //end error function
            }//end argument list
        );// end ajax call
    }// end get facebook info
@@ -40,7 +44,11 @@
                      $("div").append('<br>');
 
                    }
-            }
+            },
+            error: function( req, status, err ) {
+                console.log( 'something went wrong', status, err );
+                alert('something went wrong'+ status + err);
+              } //end error function
           }//end argument list
        );// end ajax call
    }// end get facebook posts
